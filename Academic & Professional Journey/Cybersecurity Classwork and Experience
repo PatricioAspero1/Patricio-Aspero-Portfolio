@@ -1,0 +1,71 @@
+# Networking Coursework & Labs
+
+## Course: Network Fundamentals
+**Platform:** Cisco Networking Academy  
+**Status:** In Progress  
+
+## Key Skills Developed
+
+### Hands-On Configuration
+- Basic switch and end device setup
+- IP addressing and connectivity verification
+- Router interface configuration
+- Default gateway setup
+
+### Technical Knowledge
+- Network components and topologies
+- Ethernet switching concepts
+- IPv4 packet structure and addressing
+- Subnetting and VLSM
+- Physical layer media (copper, fiber, wireless)
+
+### Practical Applications
+- Cisco IOS navigation and command structure
+- Network segmentation strategies
+- Efficient IP address allocation
+- Connectivity troubleshooting
+
+
+# Information Assurance Coursework
+
+## Course Overview
+**CYBR 322: Information Assurance** provides hands-on experience in Audit, Compliance, and Risk Management, following industry-standard standards and preparing for the ISC2 CGRC certification.
+
+## Current Projects
+
+### Capitol One 2019 Breach Analysis
+**Research Focus:**
+- Analyzing the AWS S3 misconfiguration that exposed 100+ million records
+- Examining the WAF bypass techniques used in the attack
+- Assessing security control failures and compliance violations
+- Evaluating the $80M business impact and regulatory consequences
+
+### FTC Controls & Risk Management Framework (RMF)
+**Practical Application:**
+- Working with industry mentors on real-world compliance challenges
+- Applying the NIST Risk Management Framework step-by-step
+- Developing security controls aligned with FTC requirements
+- Documenting risk assessment and mitigation strategies
+
+## Skills Being Developed
+
+### Technical Competencies
+- Risk Management Framework (RMF) implementation
+- Security control assessment and validation
+- Compliance auditing and documentation
+- Cloud security configuration review
+
+### Professional Certifications
+- Preparing for **ISC2 Certified in Governance, Risk, and Compliance (CGRC)**
+- Aligning coursework with industry certification requirements
+- Building credentials for cybersecurity compliance roles
+
+### Industry Connections
+- Mentorship from cybersecurity professionals
+- Real-world compliance scenario analysis
+- Networking with industry practitioners
+
+## Course Structure
+- **Weeks 1-6:** Foundational standards, regulations, and compliance frameworks
+- **Weeks 7+:** Applied learning with industry mentors on RMF implementation
+
