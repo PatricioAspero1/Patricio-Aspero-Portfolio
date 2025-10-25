@@ -1,9 +1,9 @@
 # Patricio Aspero - Cybersecurity Portfolio
 
-## Overview
+## About me
 Cybersecurity & Business Administration student demonstrating practical security implementation through hands-on projects and homelab development.
 
-## Projects
+## Projects!
 
 My Homelab
 Proxmox virtualization environment with enterprise security hardening, SSH key management, and isolated network segmentation.
