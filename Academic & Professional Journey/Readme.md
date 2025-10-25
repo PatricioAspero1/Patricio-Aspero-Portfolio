@@ -22,6 +22,3 @@ Dual Degree Student: Cybersecurity (Applied) & Business Administration (Cyber Ma
 - CompTIA Linux+ (Future)
 - CompTIA CySA+ (Future)
 
-## The Idea
-Working bridging the gap between academic learning and real-world cybersecurity challenges while developing both technical and leadership skills.
-
