@@ -14,6 +14,17 @@ automation, infrastructure designs, and security practices.
 
 ---
 
+## Physical Homelab
+
+![Physical Homelab Rack](images/homelab-Picture.jpeg)
+
+*My physical homelab rack containing the systems that support the environment
+documented throughout this portfolio. The rack includes my Proxmox
+virtualization nodes, TrueNAS storage server, managed networking equipment,
+Raspberry Pi infrastructure, and UPS-backed power.*
+
+---
+
 ## Infrastructure Overview
 
 | System | Role | Platform |
