@@ -63,19 +63,23 @@ Prometheus currently hosts one virtual machine and seven LXC containers.
 
 | VM | Resources | Purpose |
 |---|---|---|
-| **Kryptos** | 2 GB RAM / 32 GB Disk | Dedicated virtual machine |
+| **Kryptos** | 2 vCPUs / 2 GB RAM / 32 GB | WireGuard gateway and remote-access infrastructure |
 
 ### LXC Containers
 
-| Container | Virtual Disk | Purpose |
-|---|---:|---|
-| **Dionysus** | 32 GB | Media service |
-| **qBittorrent** | 16 GB | Download client |
-| **Sonarr** | 4 GB | TV media management |
-| **Radarr** | 4 GB | Movie media management |
-| **Prowlarr** | 4 GB | Indexer management |
-| **Bazarr** | 4 GB | Subtitle management |
-| **FlareSolverr** | 4 GB | Supporting web-request service |
+| Container | Resources | Purpose |
+|---|---|---|
+| **Dionysus** | 4 vCPUs / 4 GB RAM | Plex Media Server |
+| **qBittorrent** | 2 vCPUs / 4 GB RAM | Containerized download client |
+| **Sonarr** | 1 vCPU | Television library management |
+| **Radarr** | 1 vCPU / 1 GB RAM | Movie library management |
+| **Prowlarr** | 1 vCPU / 1 GB RAM | Centralized indexer management |
+| **Bazarr** | 1 vCPU / 1 GB RAM | Subtitle management |
+| **FlareSolverr** | 1 vCPU / 512 MB RAM | Supporting web-request service |
+
+These services are separated into individual containers, providing service
+isolation while sharing access to the storage and networking resources
+required by the application stack.
 
 ---
 
