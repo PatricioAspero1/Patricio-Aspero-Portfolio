@@ -190,4 +190,14 @@ infrastructure changes observable, controlled, and reviewable.
 
 ---
 
+## Examples & Source
+
+- [View an Example AI-Generated Briefing →](EXAMPLE-BRIEFING.md)
+- [Read the Public Repository Sanitization Notice →](../SANITIZATION.md)
+
+The sanitized source scripts used by this project are also available in this
+directory.
+
+---
+
 [← Back to Scripts & Automation](../README.md)
