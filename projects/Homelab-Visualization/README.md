@@ -56,3 +56,94 @@ Generated Inventory Data
    │
    ▼
 Interactive Visualization
+```
+
+This allows the visualization to use data generated from the actual network
+rather than relying entirely on manually maintained device information.
+
+[Explore the Network Discovery project →](../scripts-tools/Network-Discovery/README.md)
+
+---
+
+## Current Features
+
+Current functionality includes:
+
+- Interactive infrastructure visualization
+- Representation of physical systems
+- Representation of VMs and containers
+- Relationships between infrastructure components
+- Navigation through a larger homelab environment
+- Integration with generated network data
+- Browser-based interface
+
+---
+
+## Technologies
+
+The project currently incorporates:
+
+- JavaScript
+- HTML
+- CSS
+- Python-generated data
+- Linux
+- Nginx
+- Network discovery data
+- Proxmox infrastructure information
+
+---
+
+## What I'm Learning
+
+Building the visualization has helped me develop experience with:
+
+- JavaScript application development
+- Visualizing infrastructure data
+- Data-driven user interfaces
+- Representing relationships between systems
+- Integrating backend-generated data with a frontend application
+- Web hosting and deployment
+- Debugging browser-based applications
+- Designing tools around real infrastructure
+
+---
+
+## Ongoing Development
+
+The visualization is an ongoing project.
+
+Future goals include:
+
+- Improving automatic synchronization with discovered infrastructure
+- Better representation of VM and container relationships
+- Additional host and service metadata
+- More useful system-health information
+- Improved navigation and visual organization
+- Integration with monitoring data
+- Automatically reflecting changes in the homelab
+- Potential integration with Mnemosyne for automated documentation and infrastructure analysis
+
+The long-term goal is to create a visual interface that acts as both a
+documentation platform and an operational view of the homelab.
+
+---
+
+## Security
+
+The public version of this project intentionally excludes:
+
+- Internal IP addresses
+- Credentials
+- Authentication data
+- Private endpoints
+- API keys
+- Unnecessary host identifiers
+- Other sensitive infrastructure information
+
+Any public source code or screenshots are reviewed and sanitized before being
+published.
+
+---
+
+[← Back to Portfolio](../../README.md)
