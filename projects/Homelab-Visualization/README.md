@@ -14,6 +14,44 @@ document, and explore.
 
 ---
 
+## Open-Source Foundation & Credit
+
+This project is based on the open-source
+[Homelab Galaxy Dashboard](https://github.com/NetworkBound/homelab-galaxy-dashboard)
+created by **NetworkBound**.
+
+The original project provides the 3D visualization framework used to represent
+Proxmox infrastructure as an interactive galaxy, with virtualization nodes,
+guests, infrastructure data, and monitoring information represented visually.
+
+Full credit for the original Homelab Galaxy Dashboard and its core visualization
+platform belongs to NetworkBound and the project's contributors.
+
+### My Implementation
+
+My work focuses on deploying, configuring, integrating, and adapting the
+dashboard for my own homelab environment.
+
+This includes connecting the visualization with my existing infrastructure and
+exploring integrations with projects I have built elsewhere in the homelab,
+including:
+
+- My three-node Proxmox environment
+- Automated network discovery running on Clio
+- Generated infrastructure and topology data
+- Prometheus-based monitoring
+- My locally hosted Ollama environment
+- Existing homelab services and infrastructure
+- Future automation through Mnemosyne
+
+I am also using the project as an opportunity to learn more about JavaScript,
+web-based visualization, APIs, dynamic infrastructure data, and the process of
+adapting an existing open-source project to a real environment.
+
+[View the original Homelab Galaxy Dashboard on GitHub →](https://github.com/NetworkBound/homelab-galaxy-dashboard)
+
+---
+
 ## Purpose
 
 As my environment expanded, static documentation became increasingly difficult
