@@ -2,15 +2,20 @@
 
 ## Overview
 
-The Interactive Homelab Visualization is a custom application I am developing
-to provide a navigable visual representation of my homelab.
+My Interactive Homelab Visualization is a customized deployment and ongoing
+integration of NetworkBound's open-source **Homelab Galaxy Dashboard**.
 
-Rather than relying entirely on static diagrams, the project displays physical
-hosts, virtual machines, containers, infrastructure services, and their
-relationships in an interactive environment.
+The dashboard provides a navigable 3D representation of my homelab, allowing
+physical infrastructure, Proxmox nodes, virtual machines, containers, and
+supporting services to be represented visually.
 
-The project is designed to make a growing homelab easier to understand,
-document, and explore.
+My work on the project focuses on deploying the platform within my own
+environment, integrating it with my infrastructure and monitoring systems,
+and exploring ways to connect it with the custom discovery and automation
+tools I am developing elsewhere in the homelab.
+
+The goal is to create a visual operational view of my environment that becomes
+increasingly dynamic as the homelab evolves.
 
 ---
 
@@ -181,6 +186,20 @@ The public version of this project intentionally excludes:
 
 Any public source code or screenshots are reviewed and sanitized before being
 published.
+
+---
+
+## Credits
+
+**Homelab Galaxy Dashboard** was created by
+[NetworkBound](https://github.com/NetworkBound).
+
+[View the original Homelab Galaxy Dashboard →](https://github.com/NetworkBound/homelab-galaxy-dashboard)
+
+The original project and its core visualization platform belong to NetworkBound
+and its contributors. This portfolio documents my personal deployment,
+configuration, integrations, modifications, and continued development around
+the project.
 
 ---
 
