@@ -363,7 +363,7 @@ At a high level:
                                             │
                                             ▼
                                       Backup Storage
-
+```
 ---
 
 # What I'm Learning
