@@ -322,19 +322,36 @@ portfolio updates with human review before changes are published.
 
 # Backup & Recovery
 
-Backup and recovery are also part of the lab's design.
+Backup and recovery are built into the homelab rather than being handled
+individually by each service.
 
-Examples include:
+## Proxmox Backups
 
-- Centralized storage through Atlas
-- Automated Raspberry Pi system images stored on Atlas
-- Automated application/service backups
-- Backup retention policies
-- Fallback administrative access
-- Separation of monitoring from virtualization infrastructure
+The Proxmox environment uses a centralized scheduled backup job that backs up
+virtual machines and LXC containers from the virtualization environment to
+storage hosted by **Atlas**, my TrueNAS server.
 
-These systems allow me to experiment not only with deploying infrastructure,
-but also with planning for failures and recovering from them.
+The current backup policy includes:
+
+- Automated daily backups
+- Centralized TrueNAS backup storage
+- Coverage across the Proxmox environment
+- Retention of the five most recent backups
+- Separation of backup storage from the virtualization hosts
+
+At a high level:
+
+```text
+             Icarus ────────┐
+                             │
+          Prometheus ────────┼────► Scheduled Proxmox Backups
+                             │                │
+            Daedalus ────────┘                ▼
+                                          Atlas
+                                         TrueNAS
+                                            │
+                                            ▼
+                                      Backup Storage
 
 ---
 
