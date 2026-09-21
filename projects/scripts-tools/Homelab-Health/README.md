@@ -83,7 +83,7 @@ The finished briefing can then be delivered through Discord.
 ---
 
 ## Architecture
-
+```text
 Proxmox Hosts ───────┐
 Monitoring Services ─┤
 Applications ────────┤
@@ -103,6 +103,7 @@ Linux Hosts ─────────┘               │
                                      │
                                      ▼
                                   Discord
+```
 ## Automation & Recovery
 
 The project includes limited automated recovery for selected non-critical
