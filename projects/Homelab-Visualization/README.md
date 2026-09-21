@@ -32,7 +32,7 @@ guests, infrastructure data, and monitoring information represented visually.
 Full credit for the original Homelab Galaxy Dashboard and its core visualization
 platform belongs to NetworkBound and the project's contributors.
 
-### My Implementation
+### My deployment and customization
 
 My work focuses on deploying, configuring, integrating, and adapting the
 dashboard for my own homelab environment.
@@ -52,6 +52,7 @@ including:
 I am also using the project as an opportunity to learn more about JavaScript,
 web-based visualization, APIs, dynamic infrastructure data, and the process of
 adapting an existing open-source project to a real environment.
+
 
 [View the original Homelab Galaxy Dashboard on GitHub →](https://github.com/NetworkBound/homelab-galaxy-dashboard)
 
@@ -77,7 +78,7 @@ relationships within my homelab.*
 As my environment expanded, static documentation became increasingly difficult
 to keep synchronized with the actual infrastructure.
 
-This project was created to provide a more dynamic way to visualize:
+I adopted and customized this project to provide a more dynamic way to visualize:
 
 - Physical servers
 - Proxmox nodes
@@ -171,13 +172,9 @@ Building the visualization has helped me develop experience with:
 
 **Status:** Active Development
 
-The visualization is currently functional and continues to evolve as I
-integrate additional infrastructure data and improve how systems and
-relationships are represented.
-
-The screenshot above shows a working development version of my deployment.
-Future iterations will continue improving automatic discovery, topology
-accuracy, monitoring integration, and visual organization.
+The visualization is functional and currently integrated with my homelab.
+Additional discovery, monitoring, topology, and automation integrations are
+still being developed.
 
 ---
 
