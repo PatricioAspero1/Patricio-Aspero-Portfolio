@@ -103,6 +103,35 @@ excluded from this portfolio.
 
 ---
 
+## Backup Infrastructure
+
+Atlas serves as the centralized backup destination for the homelab.
+
+My Proxmox environment uses scheduled backup jobs to automatically store
+backups of virtual machines and LXC containers on TrueNAS-backed storage.
+
+The current backup policy retains multiple recent copies, providing recovery
+points while preventing backup storage from growing indefinitely.
+
+Tartarus, which operates independently of Proxmox, also stores automated
+system images on Atlas.
+
+This makes Atlas an important part of the environment's recovery architecture,
+providing backup storage physically separate from the systems hosting the
+primary workloads.
+
+### Experience
+
+- Proxmox backup configuration
+- Scheduled backups
+- Backup retention
+- TrueNAS storage
+- Network backup targets
+- System image storage
+- Recovery planning
+
+---
+
 ## Skills & Experience
 
 Building and maintaining Atlas has given me practical experience with:
