@@ -50,17 +50,15 @@ alongside the actual environment.
 
 ---
 
-### Homelab Visualization
+### Homelab Visualization Integration
 
-An interactive visualization project that represents physical hosts, virtual
-machines, containers, and relationships throughout my homelab.
+The network-discovery pipeline also provides data used by my separate
+interactive homelab visualization project.
 
-The project uses information produced by my network-discovery tooling and is
-continuously evolving alongside the infrastructure.
+The visualization itself is documented independently because it is a larger
+application rather than only a script or automation workflow.
 
-**Technologies:** JavaScript, HTML, Python-generated data, Nginx
-
-[View Homelab Visualization →](Homelab-Visualization/README.md)
+[View Homelab Visualization →](../Homelab-Visualization/README.md)
 
 ---
 
