@@ -50,7 +50,7 @@ working with Linux, Windows, cybersecurity, and my homelab.
 Coursework from my Cybersecurity and Business Administration programs at
 the University of North Carolina Wilmington.
 
-**[View Coursework](unofficial-transcript.md)**
+**[View Coursework](coursework.md)**
 
 ## Technical Skills
 
