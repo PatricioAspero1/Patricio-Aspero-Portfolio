@@ -84,7 +84,6 @@ The finished briefing can then be delivered through Discord.
 
 ## Architecture
 
-```text
 Proxmox Hosts ───────┐
 Monitoring Services ─┤
 Applications ────────┤
@@ -104,3 +103,90 @@ Linux Hosts ─────────┘               │
                                      │
                                      ▼
                                   Discord
+## Automation & Recovery
+
+The project includes limited automated recovery for selected non-critical
+services.
+
+If a configured container is found stopped, the system can attempt to restart
+it and record whether the recovery succeeded.
+
+I intentionally keep automated recovery limited to known workloads rather than
+giving the system unrestricted control over the environment.
+
+Future development will focus on adding additional safeguards, validation,
+logging, and approval mechanisms before expanding automated remediation.
+
+---
+
+## Technologies
+
+- Bash
+- Linux
+- Proxmox VE
+- SSH
+- Prometheus
+- Grafana
+- REST APIs
+- JSON / jq
+- curl
+- Ollama
+- Qwen
+- Discord Webhooks
+- Cron / scheduled execution
+
+---
+
+## Security
+
+The public versions of these scripts have been sanitized.
+
+Credentials, API keys, webhook URLs, internal network addresses, and other
+environment-specific configuration are intentionally excluded from the
+repository.
+
+Production secrets are kept outside the public source code.
+
+---
+
+## What I'm Learning
+
+This project has helped me build experience with:
+
+- Bash scripting
+- Remote command execution
+- API requests
+- JSON parsing
+- Infrastructure monitoring
+- Automated recovery
+- Scheduled tasks
+- Service health checks
+- Centralized logging
+- Local AI integration
+- Notification systems
+- Designing safer infrastructure automation
+
+---
+
+## Ongoing Development
+
+This project is still evolving.
+
+Future improvements include:
+
+- Moving additional configuration into environment files
+- Improving error handling
+- Adding structured logging
+- Adding retry logic
+- Expanding monitoring coverage
+- Using smaller local models for faster briefing generation
+- Adding safer automated maintenance for non-critical systems
+- Creating approval steps before higher-impact actions
+- Integrating documentation updates with my GitHub portfolio
+
+My long-term goal is to make the system increasingly autonomous while keeping
+infrastructure changes observable, controlled, and reviewable.
+
+---
+
+[← Back to Scripts & Automation](../README.md)
