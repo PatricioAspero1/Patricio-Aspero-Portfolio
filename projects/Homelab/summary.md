@@ -50,13 +50,13 @@ connecting dedicated infrastructure systems.
           ┌─────────────────┼─────────────────┐
           │                 │                 │
           ▼                 ▼                 ▼
-       Atlas             Tartarus        Proxmox Cluster
-      TrueNAS           Raspberry Pi           │
-      Storage          DNS/Monitoring    ┌─────┼─────┐
-                                         │     │     │
-                                         ▼     ▼     ▼
-                                      Icarus  Prometheus
-                                               Daedalus
+       Atlas             Tartarus            Proxmox Cluster
+      TrueNAS           Raspberry Pi               │
+      Storage          DNS/Monitoring    ┌─────────┼─────────┐
+                                         │         │         │
+                                         ▼         ▼         ▼
+                                      Icarus  Prometheus   Daedalus
+                                                          
 ```
 
 The network supports communication between physical hosts, virtual machines,
