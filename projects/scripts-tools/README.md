@@ -13,7 +13,7 @@ monitor systems, and document my environment.
 > Google, and AI-assisted guidance to help research unfamiliar concepts,
 > troubleshoot problems, and improve my implementations.
 >
-> My goal is not to generate working scripts, but to understand how
+> My goal is not to simply generate working scripts, but to understand how
 > they work, test and modify them myself, and continue building the skills
 > needed to design increasingly independent and reliable automation.
 
