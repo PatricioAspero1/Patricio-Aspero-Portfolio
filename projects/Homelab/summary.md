@@ -16,7 +16,7 @@ automation, infrastructure designs, and security practices.
 
 ## Physical Homelab
 
-![Physical Homelab Rack](images/homelab-Picture.jpeg)
+![Physical Homelab Rack](projects/Homelab/images/Homelab-Picture.jpeg)
 
 *My physical homelab rack containing the systems that support the environment
 documented throughout this portfolio. The rack includes my Proxmox
