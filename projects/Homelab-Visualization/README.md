@@ -57,6 +57,21 @@ adapting an existing open-source project to a real environment.
 
 ---
 
+## Preview
+
+![My Homelab Galaxy Dashboard](screenshots/galaxy-overview.png)
+
+*My implementation of NetworkBound's Homelab Galaxy Dashboard displaying
+physical infrastructure, Proxmox workloads, network components, and service
+relationships within my homelab.*
+
+> **Development Screenshot:** This image was captured during development and
+> troubleshooting. The visualization continues to change as I improve device
+> discovery, classification, topology relationships, and integration with the
+> rest of my infrastructure.
+
+---
+
 ## Purpose
 
 As my environment expanded, static documentation became increasingly difficult
@@ -149,6 +164,20 @@ Building the visualization has helped me develop experience with:
 - Web hosting and deployment
 - Debugging browser-based applications
 - Designing tools around real infrastructure
+
+---
+
+## Project Status
+
+**Status:** Active Development
+
+The visualization is currently functional and continues to evolve as I
+integrate additional infrastructure data and improve how systems and
+relationships are represented.
+
+The screenshot above shows a working development version of my deployment.
+Future iterations will continue improving automatic discovery, topology
+accuracy, monitoring integration, and visual organization.
 
 ---
 
