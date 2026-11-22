@@ -2,6 +2,8 @@
 
 **Cybersecurity & Business Administration Student | SOC Operations | IT Infrastructure & Security**
 
+[**View My Resume**](Patricio_Aspero_Resume.pdf) | [**LinkedIn**](https://www.linkedin.com/in/patricio-aspero)
+
 ## About Me
 
 I'm a dual-degree student at the **University of North Carolina Wilmington**
