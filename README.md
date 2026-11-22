@@ -1,6 +1,6 @@
 # Patricio Aspero
 
-**Cybersecurity & Business Administration Student | IT Support | Homelab & Infrastructure**
+**Cybersecurity & Business Administration Student | SOC Operations | IT Infrastructure & Security**
 
 ## About Me
 
@@ -9,15 +9,9 @@ pursuing B.S. degrees in **Cybersecurity (Applied Cybersecurity)** and
 **Business Administration (Cybersecurity)**, with an expected graduation date
 of May 2028.
 
-My experience spans enterprise IT support, cybersecurity project coordination,
-SOC training, and hands-on infrastructure development. At UNCW's Technology
-Assistance Center, I've progressed through Tier 1 and Tier 2 support while
-working with technologies including Microsoft Entra ID, Active Directory,
-Duo MFA, Windows, Linux, and enterprise networking.
+My experience spans enterprise IT support, cybersecurity project coordination, SOC operations, and hands-on infrastructure development. At UNCW, I currently participate in a Level 1 SOC Apprenticeship with IT Security while serving as a Student Cybersecurity Project Coordinator at the Technology Assistance Center.
 
-Outside of work and coursework, I maintain a growing homelab where I experiment
-with virtualization, networking, storage, monitoring, secure remote access,
-automation, and infrastructure administration.
+Outside of work and coursework, I maintain a growing homelab where I develop practical experience with virtualization, networking, storage, monitoring, secure remote access, automation, and vulnerability testing. My projects include infrastructure administration, local AI-assisted monitoring, and controlled penetration-testing demonstrations.
 
 ---
 
@@ -70,6 +64,18 @@ experiment with controlled AI-assisted infrastructure administration.
 Prometheus • REST APIs
 
 **[Explore Mnemosyne →](projects/Homelab/Daedalus/Mnemosyne.md)**
+
+---
+
+### UnrealIRCd 3.2.8.1 — Remote Command Execution (CVE-2010-2075)
+
+**Vulnerability Research & Penetration Testing | November 2026**
+
+Built an isolated penetration-testing environment using Kali Linux and Metasploitable 2 on my Proxmox homelab. Successfully exploited the UnrealIRCd backdoor using Metasploit, established a root-level Meterpreter session, and demonstrated remote filesystem modification.
+
+**Technologies:** Kali Linux • Metasploit • Nmap • Netcat • Meterpreter • Proxmox VE
+
+**[View Project Documentation →](projects/security/UnrealIRCd-CVE-2010-2075.md)** | **[Watch Video Demonstration →](https://youtu.be/3p2pmmYGjIg)**
 
 ---
 
@@ -136,9 +142,11 @@ networking, cybersecurity program management, and business operations.
 - DNS
 - Network Segmentation
 - Routing & NAT
-- Nmap
 - SIEM & Log Analysis
 - Security Monitoring
+- Metasploit Framework & Meterpreter
+- Vulnerability Assessment & Exploitation
+- Nmap & Network Service Enumeration
 
 ### Monitoring & Automation
 
@@ -168,9 +176,10 @@ networking, cybersecurity program management, and business operations.
 
 ## Experience Highlights
 
-- **Cybersecurity Student Project Coordinator** — University of North Carolina Wilmington
-- **Tier 2 IT Technician** — UNCW Technology Assistance Center
-- **SOC Analyst Intern** — Carolina Cyber Network *(Jan–May 2026)*
+- **SOC Apprenticeship (Level 1)** — UNCW IT Security (Oct 2026–Present)
+- **Student Cybersecurity Project Coordinator** — UNCW Technology Assistance Center (Aug 2025–Present)
+- **Student IT Technician — Tier 2** — UNCW Technology Assistance Center (May–Aug 2025)
+- **SOC Analyst Intern** — Carolina Cyber Network (Jan–May 2026)
 
 ---
 
